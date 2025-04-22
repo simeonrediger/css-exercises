@@ -30,13 +30,24 @@ body {
 
 /* Changes below */
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .header {
   padding: 12px;
   font-size: 29px;
   font-weight: 1000;
 }
 
+.main {
+  display: flex;
+  flex: 1;
+}
+
 .sidebar {
+  flex: none;
   display: flex;
   flex-direction: column;
   justify-content: start;
