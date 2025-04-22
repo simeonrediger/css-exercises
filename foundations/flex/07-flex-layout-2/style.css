@@ -67,3 +67,10 @@ body {
   text-decoration: none;
   font-size: 18px;
 }
+
+.footer {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
