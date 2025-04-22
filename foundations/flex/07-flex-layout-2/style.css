@@ -68,6 +68,17 @@ body {
   font-size: 18px;
 }
 
+.content {
+  padding: 64px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  flex-basis: 300px;
+}
+
 .footer {
   font-weight: 500;
   display: flex;
